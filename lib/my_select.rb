@@ -1,3 +1,9 @@
 def my_select(collection)
- # your code here!
+ iteration = 0
+ array=[]
+ while iteration > collection.length
+array << yield(collection[iteration])
+iteration+=1 
+end
+array
 end
