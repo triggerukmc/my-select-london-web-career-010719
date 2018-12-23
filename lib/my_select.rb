@@ -6,7 +6,7 @@ def my_select(collection)
 array << yield(collection[iteration])
 end
 iteration+=1 
-array
-end
 
+end
+array
 end
